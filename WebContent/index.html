@@ -14,12 +14,25 @@
 			react to following URL :
 			http://localhost:8080/mywebapp/servlet/helloworldservlet<br>
 			(replace "mywebapp" with your context name)</li>
-		<li><a href="servlet/hellonameservlet?Name=Amedee">Servlet02: Hello Name</a><br> Write
-			HelloNameServlet by making it accept a name which it prints out. Use
-			the getParameter on the HttpRequestObject to obtain the name provided
-			in the URL<br>Your servlet shall react to following URL :
+		<li><a href="servlet/hellonameservlet?Name=Amedee">Servlet02:
+				Hello Name</a><br> Write HelloNameServlet by making it accept a
+			name which it prints out. Use the getParameter on the
+			HttpRequestObject to obtain the name provided in the URL<br>Your
+			servlet shall react to following URL :
 			http://localhost:8080/mywebapp/servlet/hellonameservlet?Name=myName<br>
 			(replace "mywebapp" with your context name)</li>
+		<li><a href="/servlet/HelloNamePostServlet"></a>Servlet03:
+			HelloNamePostServlet<br>
+			<pre>
+Write a HelloNamePostServlet that
+    * accepts a name and firstname field from a FORM (POST method)
+    * writes these fields on the output (HTML)
+    * adds the current Date to this output.
+Your request should be send from a HTML Form.
+(URL of HTML page containing &lt;form&gt; : http://localhost:8080/mywebapp/InputName.html) 
+(replace "mywebapp" with your context name)
+Tip : &lt;FORM action="http://localhost:8080/mywebapp/HelloNamePostServlet" method="GET"&gt;
+</pre></li>
 	</ul>
 
 </body>
