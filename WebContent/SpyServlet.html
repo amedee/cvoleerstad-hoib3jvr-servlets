@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML Form, Multiple Inputs</title>
+</head>
+<body>
+	<form action="servlet/SpyServlet" method="GET">
+		<p>
+			<label>First Name:&nbsp;</label> <input type="text" name="firstname"
+				maxlength="20" size="10" /><br /> <label>Last Name:&nbsp;</label>
+			<input type="text" name="lastname" maxlength="20" size="10" /><br />
+			<label>Password:&nbsp;&nbsp;</label> <input type="password"
+				name="password" maxlength="14" size="10" /><br />
+		</p>
+		<p>
+			<label>Sport(s):&nbsp;</label><input type="text" name="sport" />&nbsp;
+			<input type="text" name="sport" />&nbsp; <input type="text"
+				name="sport" />&nbsp;
+		</p>
+
+		<p>
+			<label>Working Days:&nbsp;</label><br /> <select name="work_days"
+				"size="3" multiple>
+				<option value="1">Sunday</option>
+				<option value="2" selected>Monday</option>
+				<option value="3">Tuesday</option>
+				<option value="4">Wednesday</option>
+				<option value="5" selected>Thursday</option>
+				<option value="6">Friday</option>
+				<option value="7">Saturday</option>
+			</select>
+		</p>
+
+		<p>
+			<label>Some details:</label><br /> <input type="checkbox"
+				name="detail" value="Veggie">Vegetarian</input><br /> <input
+				type="checkbox" name="detail" value="Smoker">I smoke</input><br />
+			<input type="checkbox" name="detail" value="Married" checked>Married</input><br />
+		</p>
+		<p>
+			<label>Do you like to travel by train?</label><br /> <input
+				type="radio" name="travel" value="yes" checked>Absolutely</input><br />
+			<input type="radio" name="travel" value="no">Certainly not</input>
+		</p>
+		<input type="submit" value="Send Form Data">&nbsp; <input
+			type="reset" value="Erase Form">
+	</form>
