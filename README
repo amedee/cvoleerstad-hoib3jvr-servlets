@@ -1,3 +1,0 @@
-Write a HelloWorldServlet that prints out the text ‘HelloWorld’ when a get request is received. Put the code in a package be.yourcompany.servlets.
-The HelloWorldServlet shall react to following URL : http://localhost:8080/mywebapp/servlet/helloworldservlet
-(replace "mywebapp" with your context name)
