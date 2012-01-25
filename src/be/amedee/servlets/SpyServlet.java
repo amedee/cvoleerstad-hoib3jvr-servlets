@@ -1,4 +1,4 @@
-package be.yourcompany.servlets;
+package be.amedee.servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
